@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "publisher": "Madhur",
   "engines": {
-    "vscode": "^1.80.0"
+    "vscode": "^1.0.0"
   },
   "categories": [
     "Themes"
@@ -22,22 +22,12 @@
     "color": "#1e1e1e",
     "theme": "dark"
   },
+  "main": "./extension.js",
   "contributes": {
-    "themes": [
+    "commands": [
       {
-        "label": "Codeforces theme",
-        "uiTheme": "vs-dark",
-        "path": "./themes/codeforces.json"
-      },
-      {
-        "label": "Dark Rangers theme",
-        "uiTheme": "vs-dark",
-        "path": "./themes/darkrangers.json"
-      },
-      {
-        "label": "leetcode theme",
-        "uiTheme": "vs-dark",
-        "path": "./themes/leetcode.md"
+        "command": "workbencher.applyAesthetic",
+        "title": "Workbencher: Apply Custom UI"
       }
     ]
   },
