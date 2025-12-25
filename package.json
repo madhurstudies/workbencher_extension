@@ -1,0 +1,48 @@
+{
+  "name": "workbencher",
+  "displayName": "Workbencher",
+  "description": "Premium workbench aesthetics to transform your workspace frame and focus.",
+  "version": "1.0.0",
+  "publisher": "Madhur",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "workbench",
+    "ui",
+    "customization",
+    "minimalist",
+    "frame"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#1e1e1e",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Codeforces theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/codeforces.json"
+      },
+      {
+        "label": "Dark Rangers theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darkrangers.json"
+      },
+      {
+        "label": "leetcode theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/leetcode.md"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/madhurstudies/workbencher_extension"
+  }
+}
